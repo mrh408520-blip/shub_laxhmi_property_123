@@ -1,0 +1,10 @@
+node_modules/
+client/dist/
+.env
+server/.env
+client/.env
+# Retain and exclude legacy local database files; the application no longer uses them.
+server/data/*.sqlite
+server/data/*.sqlite-shm
+server/data/*.sqlite-wal
+npm-debug.log*
